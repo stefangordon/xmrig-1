@@ -16,3 +16,6 @@ jobs:
     steps:
       - name: Verify image pull
         run: docker pull miningcontainers/xmrig:latest
+      - name: two
+        run: docker pull miningcontainers/xmrig:latest
+
